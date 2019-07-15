@@ -8522,7 +8522,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .theme-progress-bar-dark {
-  background-color: #434E5E;
+  background-color: #145b7d;
 }
 
 .resume-wrapper {
@@ -8535,8 +8535,8 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header {
-  background: #434E5E;
-  color: rgba(255, 255, 255, 0.9);
+  background: #145b7d;
+  color: rgba(255, 255, 250, 0.8);
   height: 220px;
 }
 
@@ -8555,7 +8555,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .resume-header a:hover {
@@ -8573,13 +8573,13 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   height: 24px;
   border-radius: 0.125rem;
   background: white;
-  color: #434E5E;
+  color: #145b7d;
 }
 
 .resume-section-title {
   font-size: 1.25rem;
   position: relative;
-  color: #434E5E;
+  color: #145b7d;
 }
 
 .resume-section-title:after {
@@ -8589,7 +8589,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   bottom: 0;
   width: 100%;
   height: 1.5px;
-  background: #8d9aad;
+  background: #2570a1;
 }
 
 .resume-section-content {
@@ -8619,7 +8619,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   top: 3px;
   width: 15px;
   height: 15px;
-  border: 4px solid #58677c;
+  border: 4px solid #145b7d;
   background: white;
   border-radius: 50%;
 }
@@ -8629,19 +8629,19 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-company-name {
-  color: #58677c;
+  color: #2468a2;
   font-size: 0.875rem;
   font-weight: 500;
 }
 
 .resume-position-time {
   font-size: 0.875rem;
-  color: #aab4c3;
+  color: #434E5E;
 }
 
 .resume-position-title {
   font-size: 1.125rem;
-  color: #434E5E;
+  color: #145b7d;
 }
 
 .resume-timeline-item-desc-heading {
@@ -8674,7 +8674,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-award-icon {
   left: 0;
   top: 4px;
-  color: #aab4c3;
+  color: #94a0b5;
 }
 
 .resume-award-name {
