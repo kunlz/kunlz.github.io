@@ -152,32 +152,51 @@ a.btn:hover {
 .header .actions a:last-child {
   margin-right: 0;
 }
+
 .header .background-image {
   position: absolute;
+  background-color: rgba(255,255,255,0.6);
   width: 100%;
-  height: 45%;
+  height: 100px;
   top: 0;
   margin-left: 0;
   z-index:-1
 }
 .header .name {
-  font-size: 48px;
+  font-size: 52px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
 }
 .header .title {
   font-size: 28px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 30px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px; 
 
 }
 .header .intro {
   /*background: #16245C;*/
-  padding-top: 60px;
-  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  background: url(111.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-top: auto;
+  padding-bottom: auto;
   position: relative;
   font-size: 16px;
+}
+.header .overlay {
+	padding: 50px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
+	/*background: -moz-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to right, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); /* IE6-9 */
 }
 .header .profile {
   max-width: 800px;
@@ -211,7 +230,7 @@ a.btn:hover {
 
 /* Page Nav */
 .page-nav-space-holder {
-  height: 60px;
+  height: 40px;
   position: relative;
 }
 .page-nav-wrapper {
@@ -613,8 +632,8 @@ a.btn:hover {
 }
 .aboutme-section .intro {
   position: relative;
-  padding: 5px;
-  padding-left: 0px;
+  padding: 0;
+  padding-left: 10px;
   font-size: 16px;
   color: #666;
 }
