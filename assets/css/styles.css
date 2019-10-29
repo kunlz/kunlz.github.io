@@ -622,6 +622,7 @@ a.btn:hover {
   width: 300px;
   height: 300px;
   left: 15px;
+  right: 15px;
 }
 .aboutme-section .intro p {
   margin-bottom: 15px;
