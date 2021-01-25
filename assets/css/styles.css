@@ -666,7 +666,8 @@ a.btn:hover {
 .aboutme-section .social a {
   display: inline-block;
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: bold;
   color: #1F6FB5;
 }
 .aboutme-section .social a:hover {
