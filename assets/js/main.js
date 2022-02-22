@@ -37,10 +37,10 @@ $(document).ready(function() {
     /* ======= Chart ========= */
     
     $('.chart').easyPieChart({		
-		barColor:'#1F6FB5',//Pie chart colour
+		barColor:'#0b5151',//Pie chart colour
 		trackColor: '#e8e8e8',
 		scaleColor: false,
-		lineWidth : 8,
+		lineWidth : 10,
 		animate: 1500,
 		onStep: function(from, to, percent) {
 			$(this.el).find('span').text(Math.round(percent));

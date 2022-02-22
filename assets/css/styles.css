@@ -24,7 +24,7 @@ h6 {
   font-weight: 500;
 }
 a {
-  color: #1a79d3;  /* 参考文献链接颜色 */
+  color: #1366b3;  /* 参考文献链接颜色 */
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -32,7 +32,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #f09a38;
+  color: #e77b23;
 }
 a:focus {
   text-decoration: none;
@@ -70,7 +70,7 @@ a.btn:hover {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #0266a0;
+  background: #04613d; /* 快速返回按键颜色 */
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -91,7 +91,7 @@ a.btn:hover {
 }
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 #topcontrol:hover {
-  background: #007888;
+  background: #d8711c; /* 快速返回按键颜色 */
   color: #fff;
 }
 #topcontrol .fa {
@@ -180,7 +180,7 @@ a.btn:hover {
   height: auto;
   text-align: center;
   color: #fff;
-  background: url(200.jpg) no-repeat center center;
+  background: url(202.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -234,7 +234,7 @@ a.btn:hover {
   position: relative;
 }
 .page-nav-wrapper {
-  background: #015b8d;  /* 标题栏颜色 （固定） */
+  background: #0b5151;  /* 标题栏颜色 （固定） */
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -250,7 +250,7 @@ a.btn:hover {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #015b8d; /* 标题栏颜色 （移动） */
+  background: #0b5151; /* 标题栏颜色 （移动） */
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -275,11 +275,11 @@ a.btn:hover {
   background: none;
 }
 .page-nav-wrapper .page-nav li a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);  /* 标题栏字体颜色 （未激活） */
   padding: inherit;
 }
 .page-nav-wrapper .page-nav li a:hover {
-  color: #fff;
+  color: rgb(236, 132, 47); /* 标题栏字体颜色 （激活） */
 }
 .page-nav-wrapper .page-nav li a:hover,
 .page-nav-wrapper .page-nav li a:active,
@@ -319,7 +319,7 @@ a.btn:hover {
   text-align: center;
 }
 .timeline {
-  border-left: 3px solid #1F6FB5;
+  border-left: 3px solid #0b5151;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
@@ -350,7 +350,7 @@ a.btn:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  border: 3px solid #1F6FB5;
+  border: 3px solid #0b5151;
 }
 .timeline .item:after {
   content: "";
@@ -368,7 +368,7 @@ a.btn:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #1F6FB5;
+  background: #0b5151;
   z-index: 10;
 }
 .timeline .work-place {
