@@ -611,6 +611,7 @@ a.btn:hover {
   -webkit-opacity: 0.9;
   -moz-opacity: 0.9;
   opacity: 0.9;
+  line-height: middle;
 }
 .portfolio-section .item-inner .content {
   padding: 30px;
